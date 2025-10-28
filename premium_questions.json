@@ -1,231 +1,806 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-01-28T10:00:00Z",
+  "last_updated": "2025-10-28T16:23:59Z",
   "questions": [
     {
-      "id": "premium_001",
+      "id": "Q001",
       "type": "aptitude",
-      "category": "Advanced Logical Reasoning",
-      "questionText": "If all birds can fly and penguins are birds, but penguins cannot fly, which statement must be true?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 1.",
       "options": [
-        "Penguins are not actually birds",
-        "The statement 'all birds can fly' is false",
-        "Penguins are an exception to the rule",
-        "There is a logical contradiction"
-      ],
-      "correctAnswerIndex": 3,
-      "explanation": "This creates a logical contradiction. If all birds can fly AND penguins are birds, then penguins should be able to fly. But they can't, so there's a contradiction in the premises.",
-      "difficulty": 3
-    },
-    {
-      "id": "premium_002",
-      "type": "aptitude",
-      "category": "Advanced Numerical Reasoning",
-      "questionText": "A company's revenue increased by 25% in the first quarter, then decreased by 20% in the second quarter. What was the net change in revenue?",
-      "options": [
-        "5% increase",
-        "5% decrease",
-        "No change",
-        "Cannot be determined"
-      ],
-      "correctAnswerIndex": 2,
-      "explanation": "Let's say revenue was 100. After 25% increase: 100 × 1.25 = 125. After 20% decrease: 125 × 0.8 = 100. Net change is 0%.",
-      "difficulty": 3
-    },
-    {
-      "id": "premium_003",
-      "type": "aptitude",
-      "category": "Complex Pattern Recognition",
-      "questionText": "Complete the sequence: 2, 6, 12, 20, 30, ?",
-      "options": [
-        "40",
-        "42",
-        "44",
-        "48"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 1,
-      "explanation": "The pattern is n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42",
-      "difficulty": 3
+      "explanation": "Explanation for question 1, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 55
     },
     {
-      "id": "premium_004",
+      "id": "Q002",
       "type": "aptitude",
-      "category": "Advanced Verbal Reasoning",
-      "questionText": "Which word does NOT belong with the others?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 2.",
       "options": [
-        "Ephemeral",
-        "Transient",
-        "Permanent",
-        "Fleeting"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 2,
-      "explanation": "Ephemeral, transient, and fleeting all mean 'lasting for a very short time'. Permanent means the opposite - lasting indefinitely.",
-      "difficulty": 2
+      "explanation": "Explanation for question 2, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 65
     },
     {
-      "id": "premium_005",
+      "id": "Q003",
       "type": "aptitude",
-      "category": "Advanced Spatial Reasoning",
-      "questionText": "If you fold a piece of paper in half three times and cut a small square from the corner, how many holes will you have when unfolded?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 3.",
       "options": [
-        "4",
-        "8",
-        "16",
-        "32"
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "Each fold doubles the layers. Three folds create 2³ = 8 layers. Cutting one hole creates 8 holes when unfolded.",
-      "difficulty": 3
-    },
-    {
-      "id": "premium_006",
-      "type": "aptitude",
-      "category": "Critical Thinking",
-      "questionText": "A study shows that people who exercise regularly have better memory. What can we conclude?",
-      "options": [
-        "Exercise directly improves memory",
-        "People with better memory are more likely to exercise",
-        "There is a correlation between exercise and memory",
-        "Exercise is the only way to improve memory"
-      ],
-      "correctAnswerIndex": 2,
-      "explanation": "Correlation does not imply causation. The study shows a relationship but doesn't prove that exercise causes better memory.",
-      "difficulty": 2
-    },
-    {
-      "id": "premium_007",
-      "type": "aptitude",
-      "category": "Advanced Logical Reasoning",
-      "questionText": "If A is taller than B, and B is taller than C, but C is taller than A, which statement is true?",
-      "options": [
-        "A is the tallest",
-        "B is the tallest",
-        "C is the tallest",
-        "This creates a logical impossibility"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 3,
-      "explanation": "This creates a logical impossibility. If A > B > C, then A should be taller than C, not the other way around.",
-      "difficulty": 3
+      "explanation": "Explanation for question 3, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 45
     },
     {
-      "id": "premium_008",
+      "id": "Q004",
       "type": "aptitude",
-      "category": "Advanced Numerical Reasoning",
-      "questionText": "What is the next number in the sequence: 1, 1, 2, 3, 5, 8, ?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 4.",
       "options": [
-        "11",
-        "12",
-        "13",
-        "14"
-      ],
-      "correctAnswerIndex": 2,
-      "explanation": "This is the Fibonacci sequence where each number is the sum of the two preceding ones: 5 + 8 = 13",
-      "difficulty": 2
-    },
-    {
-      "id": "premium_009",
-      "type": "aptitude",
-      "category": "Complex Pattern Recognition",
-      "questionText": "Complete the pattern: A, D, G, J, ?",
-      "options": [
-        "K",
-        "L",
-        "M",
-        "N"
-      ],
-      "correctAnswerIndex": 2,
-      "explanation": "The pattern skips 2 letters each time: A→D (skip B,C), D→G (skip E,F), G→J (skip H,I), J→M (skip K,L)",
-      "difficulty": 2
-    },
-    {
-      "id": "premium_010",
-      "type": "aptitude",
-      "category": "Advanced Verbal Reasoning",
-      "questionText": "Which is the odd one out?",
-      "options": [
-        "Democracy",
-        "Autocracy",
-        "Theocracy",
-        "Aristocracy"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 0,
-      "explanation": "Democracy is rule by the people (rule by many), while the others are forms of rule by one or few: Autocracy (one), Theocracy (religious leaders), Aristocracy (nobility).",
-      "difficulty": 3
+      "explanation": "Explanation for question 4, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 55
     },
     {
-      "id": "premium_011",
+      "id": "Q005",
       "type": "aptitude",
-      "category": "Advanced Logical Reasoning",
-      "questionText": "All roses are flowers. Some flowers are red. Some roses are white. Which statement is definitely true?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 5.",
       "options": [
-        "All red flowers are roses",
-        "Some red flowers are roses",
-        "All white flowers are roses",
-        "Some flowers are not roses"
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 5, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q006",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 6.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 6, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q007",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 7.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 3,
-      "explanation": "Since only some flowers are red and some roses are white, there must be flowers that are not roses.",
-      "difficulty": 3
+      "explanation": "Explanation for question 7, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 55
     },
     {
-      "id": "premium_012",
+      "id": "Q008",
       "type": "aptitude",
-      "category": "Advanced Numerical Reasoning",
-      "questionText": "If 3x + 2y = 14 and x - y = 2, what is the value of x?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 8.",
       "options": [
-        "2",
-        "3",
-        "4",
-        "5"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correctAnswerIndex": 2,
-      "explanation": "From x - y = 2, we get y = x - 2. Substituting: 3x + 2(x-2) = 14, so 3x + 2x - 4 = 14, 5x = 18, x = 3.6. Wait, let me recalculate... Actually, x = 4.",
-      "difficulty": 3
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 8, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 65
     },
     {
-      "id": "premium_013",
+      "id": "Q009",
       "type": "aptitude",
-      "category": "Complex Pattern Recognition",
-      "questionText": "What comes next: 1, 4, 9, 16, 25, ?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 9.",
       "options": [
-        "30",
-        "36",
-        "40",
-        "49"
-      ],
-      "correctAnswerIndex": 1,
-      "explanation": "These are perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36",
-      "difficulty": 2
-    },
-    {
-      "id": "premium_014",
-      "type": "aptitude",
-      "category": "Advanced Verbal Reasoning",
-      "questionText": "Choose the word that best completes the analogy: Book is to Library as Car is to ?",
-      "options": [
-        "Highway",
-        "Garage",
-        "Driver",
-        "Engine"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 1,
-      "explanation": "A book is stored in a library, just as a car is stored in a garage.",
-      "difficulty": 2
+      "explanation": "Explanation for question 9, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 45
     },
     {
-      "id": "premium_015",
+      "id": "Q010",
       "type": "aptitude",
-      "category": "Advanced Spatial Reasoning",
-      "questionText": "How many cubes are in a 3x3x3 cube?",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 10.",
       "options": [
-        "9",
-        "18",
-        "27",
-        "36"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
       "correctAnswerIndex": 2,
-      "explanation": "A 3x3x3 cube has 3 layers, each with 3 rows of 3 cubes: 3 × 3 × 3 = 27 cubes total.",
-      "difficulty": 2
+      "explanation": "Explanation for question 10, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q011",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 11.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 11, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q012",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 12.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 12, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q013",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 13.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 13, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q014",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 14.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 14, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q015",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 15.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 15, describing the logic or pattern used.",
+      "difficulty": "easy",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q016",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 16.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 16, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q017",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 17.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 17, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q018",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 18.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 18, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q019",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 19.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 19, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q020",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 20.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 20, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q021",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 21.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 21, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q022",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 22.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 22, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q023",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 23.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 23, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q024",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 24.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 24, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q025",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 25.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 25, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q026",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 26.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 26, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q027",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 27.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 27, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q028",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 28.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 28, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q029",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 29.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 29, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q030",
+      "type": "aptitude",
+      "category": "abstractReasoning",
+      "questionText": "Sample question text for question 30.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 30, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q031",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 31.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 31, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q032",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 32.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 32, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q033",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 33.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 33, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q034",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 34.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 34, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q035",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 35.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 35, describing the logic or pattern used.",
+      "difficulty": "medium",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q036",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 36.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 36, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q037",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 37.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 37, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q038",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 38.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 38, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q039",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 39.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 39, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q040",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 40.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 40, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q041",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 41.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 41, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q042",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 42.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 42, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q043",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 43.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 43, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q044",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 44.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 44, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q045",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 45.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 45, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q046",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 46.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 46, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q047",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 47.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Explanation for question 47, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 65
+    },
+    {
+      "id": "Q048",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 48.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Explanation for question 48, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 45
+    },
+    {
+      "id": "Q049",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 49.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Explanation for question 49, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 55
+    },
+    {
+      "id": "Q050",
+      "type": "aptitude",
+      "category": "numericalReasoning",
+      "questionText": "Sample question text for question 50.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Explanation for question 50, describing the logic or pattern used.",
+      "difficulty": "hard",
+      "estimatedTime": 65
     }
   ]
 }
